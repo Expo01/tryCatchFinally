@@ -40,5 +40,5 @@ public class ExceptionHandling {
         int myInt2 = Integer.parseInt("1"); // no exception so catch block will not execute
     } //the way this has been formatted such that main calls this method is that the exception will be thrown up the
     // call stack to calling method, caught and handled but we could alternatively call the 'getInt()' method and have the try/catch block
-    // in the private method block here too
+    // in the private method block here too.
 }
